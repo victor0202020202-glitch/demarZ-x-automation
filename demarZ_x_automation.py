@@ -5,10 +5,6 @@ import json
 from datetime import datetime
 import os
 
-CONSUMER_KEY = "SdTkPFyus r5wV57MS5rXhqm0o"
-CONSUMER_SECRET = "0dkHU6bix7EVkfVJSZgqWx7IUGDqom9XnorpYDC2NS0bdUGvVl"
-ACCESS_TOKEN = "88802493643825561-TYZ2GmY06f0PIMYPcWMROyfWJ0FtGJj"
-ACCESS_TOKEN_SECRET = "Vj3W0j08TJ0uyL2Xmtmke9XD2Afm9IBNGRnody# Read credentials from environment variables (GitHub Secrets)
 CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
 CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
 ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
